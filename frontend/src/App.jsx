@@ -1,11 +1,11 @@
-function App() {
-  const [count, setCount] = useState(0)
+import Home from "./pages/home";
 
+function App() {
   return (
-    <div>
-      Crypto wallet
+    <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] text-white">
+      <Home />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
